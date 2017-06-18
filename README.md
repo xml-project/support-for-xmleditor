@@ -26,4 +26,4 @@ Hints:
 **Important:**
 Please note that this software is **experimental**, so please be careful using it.
 
-If you encounter any problems, please file an issue.
+If you encounter any problem, please file an issue.
