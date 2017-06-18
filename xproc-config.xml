@@ -1,0 +1,8 @@
+<mox:config xmlns:mox="http://www.xml-project.com/morgana">
+	<!-- add your configuration settings here. -->
+	<mox:XSLTConnector value="Saxon96XSLTConnector"/> 
+	<mox:HTMLParserClass value="org.ccil.cowan.tagsoup.Parser"/>
+	
+	<mox:SecurityControl operation="read_resource" path="http://tests.xproc.org/" allowed="true"/>
+	<mox:SecurityControl operation="write_resource" path="file://tmp/" allowed="true" />
+</mox:config>
