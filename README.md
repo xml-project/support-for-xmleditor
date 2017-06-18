@@ -1,4 +1,4 @@
-# Support for xmleditor
+# Support for xml editor
 An adapter for running XProc pipeline in Oxygen using MorganaXProc
 
 Using this adapter you will be able to run [XProc](http://xproc.org/) pipelines directly in Oxygen using [MorganaXProc](http://www.xml-project.com/morganaxproc/). Syntax checks as you type are supported also.
