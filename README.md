@@ -1,7 +1,7 @@
 # support-for-xmleditor
 An adapter for running XProc pipeline in Oxygen using MorganaXProc
 
-Using this adapter, you will be able to run [XProc](http://xproc.org/) pipelines directly in Oxygen using [MorganaXProc](http://www.xml-project.com/morganaxproc/). Syntax checks as you type are supported also.
+Using this adapter you will be able to run [XProc](http://xproc.org/) pipelines directly in Oxygen using [MorganaXProc](http://www.xml-project.com/morganaxproc/). Syntax checks as you type are supported also.
 
 ## Installation
 
@@ -17,3 +17,13 @@ Using this adapter, you will be able to run [XProc](http://xproc.org/) pipelines
     * folder Extensions (from the MorganaXProc distribution).
 1. Restart Oxygen.
 
+This description (and the software of course) was checked with Oxygen 18.1 (build 2017020917) and MorganaXProc 1.0.6.
+
+Hints:
+* To use <p:xslt /> properly, you have to select either SaxonXSLTAdapter or Saxon97XSLTAdapter for <mox:XSLTConnector /> in xproc-config.xml.
+* <p:xsl-formatter /> currently has some issues because different versions of Apache(TM) FOP are expected by Oxygen and MorganaXProc.
+
+Important:
+Please note that this software is **experimental**, so please be careful using it.
+
+If you encounter any problems, please file an issue.
