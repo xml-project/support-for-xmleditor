@@ -23,7 +23,7 @@ Hints:
 * To use <p:xslt /> properly, you have to select either SaxonXSLTAdapter or Saxon97XSLTAdapter for <mox:XSLTConnector /> in xproc-config.xml.
 * <p:xsl-formatter /> currently has some issues because different versions of Apache(TM) FOP are expected by Oxygen and MorganaXProc.
 
-Important:
+**Important:**
 Please note that this software is **experimental**, so please be careful using it.
 
 If you encounter any problems, please file an issue.
