@@ -20,30 +20,5 @@
       <library name="lib/Extensions/xz.jar"/>
       <library name="lib/Extensions/AddOnsOXG.jar" />
       <library name="lib/Extensions/tagsoup-1.2.1.jar" />
-      <!--
-    <library name="lib/xmlcalabash-1.1.9-96.jar"/>
-    <library name="lib/xmlcalabash1-print-1.1.5.jar"/>
-    <library name="lib/classindex-3.3.jar"/>
-    <library name="lib/xmlresolver-0.12.3.jar"/>
-    <library name="lib/log4j-api-2.1.jar"/>
-    <library name="lib/log4j-core-2.1.jar"/>
-    <library name="lib/log4j-slf4j-impl-2.1.jar"/>
-    <library name="lib/nwalsh-annotations-1.0.0.jar"/>
-    <library name="lib/slf4j-api-1.7.10.jar"/>
-    <library name="lib/tagsoup-1.2.1.jar"/>
-    -->
-    <!-- Do not phone home... -->
-      <!--
-    <system-property name="com.xmlcalabash.phonehome" value="false"/>
-    <system-property name="com.xmlcalabash.html-parser" value="tagsoup"/>
-    -->
-    <!-- Builtin XEP system property, libraries and configuration. 
-        Point the libraries to the XEP libraries of your custom XEP installation.-->
-    <!--
-        <system-property name="com.xmlcalabash.fo-processor" value="com.xmlcalabash.util.FoXEP"/>
-        <library name="../../../tools/xep/lib/xep.jar"/>
-        <library name="../../../tools/xep/lib/xt.jar"/>
-        <system-property name="com.renderx.xep.CONFIG" file="../../../tools/xep/xep.xml"/>
-        -->
   </runtime>
 </engine>
